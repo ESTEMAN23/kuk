@@ -1,19 +1,20 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Mathlord A4</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mathlord A4.1</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div id="app">
-        <h1>Mathlord – A4.1</h1>
-        <div id="round-container"></div>
-        <button onclick="nextRound()">Siguiente ronda</button>
-        <div id="result"></div>
+  <div class="app-container">
+    <h1>Mathlord: Scroll A4.1</h1>
+    <div id="round-container"></div>
+    <div id="controls">
+      <button onclick="submitRound()">Enviar respuestas</button>
     </div>
-    <script src="app.js"></script>
+    <p id="feedback-text"></p>
+  </div>
+  <script src="app.js"></script>
 </body>
 </html>
